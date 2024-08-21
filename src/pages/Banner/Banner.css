@@ -1,0 +1,26 @@
+.projectImages {
+  height: 100vh;
+  background-image: url(./../../Images/banner.webp);
+  width: 100%;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background-position: center !important;
+  position: relative;
+}
+
+.bannerImage {
+  height: 100vh;
+  width: 100%;
+}
+
+.disclaimerModal {
+  height: 100px;
+  width: 100px;
+  background-color: aliceblue;
+}
+
+@media (max-width: 425px) {
+  .projectImages {
+    height: 70vh;
+  }
+}
